@@ -1,0 +1,17 @@
+<body>
+<script>
+	document.write('<p>'+prompt("time left:")+'</p><h1>'+prompt("url :")+'</h1>');	
+	
+</script>
+<button onclick="setTimeout(myFunction, document.querySelector('p').innerText)">download</button>
+
+<script>
+function myFunction() {
+  	let time=prompt("time left:");
+	let link =prompt("link of download:");
+	location.replace(document.querySelector("h1").innerText);
+
+
+}
+</script>
+</body>    
